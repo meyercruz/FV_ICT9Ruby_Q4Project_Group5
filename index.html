@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Q4Project</title>
+</head>
+<body>
+
+	<style>
+
+	body {
+		background-color: lightgray;
+        font-family: Concert One;
+        text-align: center;
+      }
+
+     td {
+     	text-align: left;
+     	color: lightgray;
+     
+     }
+
+     h4{
+     	background: #7d98b8;
+     	color: black;
+     	padding: 15px;
+     	width: 900px;
+     }
+
+     h5{
+     	background: #7d98b8;
+     	color: black;
+     	padding: 15px;
+     	width: 900px;
+     }
+
+     #next{
+     	text-align: center;
+     	padding: 15px;
+     	background-color: #7d98b8;
+     	border-radius: 10px;
+     	margin: 20px auto;
+     	width: 800px;
+     	height: 400px;
+     }
+
+     details{
+     	background: #7d98b8;
+     	padding: 15px;
+     	color: black;
+     	width: 800px;
+     	margin-left: auto;
+     	margin-right: auto;
+     	text-align: center;
+     }
+
+     .form-rate{
+     	width: 500px;
+     	padding: 20px;
+     	border-radius: 15px;
+     	font-size: 20px;
+
+     }
+
+     #rate{
+     	background: #7d98b8;
+     	padding: 20px;
+     	border-radius: 10px;
+        max-width: 800px;
+        margin: 50px auto;
+        margin-bottom: 160px;
+     }
+
+     .container-fluid{
+     	background-color: #eddfd1;
+     	height: 11%;
+     	position: fixed;
+     	left: 0;
+     	top: 0;
+     	font-size: large;
+     }
+		
+	.footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     color: black;
+     text-align: center;
+     background-color: #eddfd1;
+     font-family: Concert One; 
+     font-size: medium;
+     }
+
+	</style>
+
+    <!-- Navbar -->
+	<nav class="navbar navbar-expand-md bg-light fixed-top">
+    <div class="container-fluid">
+
+    	<!-- Logo -->
+
+        <a class="navbar-brand" href="index.html"><img src="https://images.icon-icons.com/1379/PNG/512/folderblue_92960.png" style="width: 60px; height: 60px;"></a>
+
+        <!-- Collapsible Menu -->
+        
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+        		<li class="nav-item"><a class="nav-link" href="index.html">About Us</a></li>
+        		
+        		<li class="nav-item"><a class="nav-link" href="#q1"onclick="openQuarter('q1')">Quarter 1</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#q2"onclick="openQuarter('q2')">Quarter 2</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#q3"onclick="openQuarter('q3')">Quarter 3</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#q4"onclick="openQuarter('q4')">Quarter 4</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#next">What's Next</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#rate">Rate Us</a></li>
+      		</ul>
+
+        <!-- Search Form -->
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search..."/>
+            <button class="btn btn-dark" type="submit">Search</button>
+          
+        </form>
+    </div>
+
+</div>
+</nav>
+
+<br><br><br><br><br><br>
+
+<h1 style="text-align: center; font-family: Concert One; color: #7286D3; font-size: bigger;">Codes and Creations: The Portfolio</h1>
+
+
+<h1 style="text-align: center; font-family: Concert One; color: black; font-size: large;">This portfolio shows our personal information and our ICT projects throughout the quarters of the academic year 2024 - 2025.<br><br><br><br>
+
+<!-- Students' Information -->
+
+<div class="container">
+	<div class="row justify-content-center">
+
+<!-- Table 1 -->
+
+		<div class="col-md-8">
+			<table class="table table-bordered">
+
+<tr>
+
+<td rowspan="4" style="width: 20%;"><img src="queeny.png" style="width: 180px; height:215px;"></td>
+
+<td style="text-align: center; font-family: Concert One; margin-top: 50px;" colspan="3">Profile Information</td>
+	</tr>
+
+			  <tr>
+			  	<td>Name:</td>
+			  	<td>Queeny Haraj G. Ramos</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Interests/Clubs:</td>
+			  	<td style="color: black;">Arts, Music, Singing, Dancing, Sports, Fashion, Writing, and Public Speaking; Glee Club, Dance Club, and Communication Arts Club</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Ambition:</td>
+			  	<td style="color: black;">"Ever since I was little, I have had several interests, passions, talents, and dreams which I am thankful to God for blessing me with and which I want to pursue even more to express myself and what I'm capable of."</td>
+			  </tr>
+			</table>
+		</div>
+
+<!-- Table 2 -->
+
+		<div class="col-md-8">
+			<table class="table table-bordered">
+
+<tr>
+
+<td rowspan="4" style="width: 20%;"><img src="jazmar.png" style="width: 180px; height: 200px;"></td>
+
+<td style="text-align: center; font-family: Concert One; margin-top: 50px;" colspan="3">Profile Information</td>
+	</tr>
+
+			  <tr>
+			  	<td style=" color: black;">Name:</td>
+			  	<td style="color: black;">Jazmar Yzaac C. Chan</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Interests/Clubs:</td>
+			  	<td style="color: black;">Writing Stories, Singing, and Listening to Music</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Ambition:</td>
+			  	<td style="color: black;">"Love is such an old fashion word" - David Bowie"</td>
+			  </tr>
+			</table>
+		</div>
+
+<!-- Table 3 -->
+
+		<div class="col-md-8">
+			<table class="table table-bordered">
+
+<tr>
+
+<td rowspan="4" style="width: 20%;"><img src="meyer.png" style="width: 180px; height: 200px"></td>
+
+<td style="text-align: center; font-family: Concert One; margin-top: 50px;" colspan="3">Profile Information</td>
+	</tr>
+
+			  <tr>
+			  	<td style=" color: black;">Name:</td>
+			  	<td style="color: black;">Francesca Meyer U. Cruz</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Interests/Clubs:</td>
+			  	<td style="color: black;">Dancing, Photography, and Electric Guitar; Dance Club</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Ambition:</td>
+			  	<td style="color: black;">“Since I was a kid I had my mind set on performing on stage because that’s what makes me happy, and if God permits, I want to travel the world and show thousands of people the passion I have for my talent.”</td>
+			  </tr>
+			</table>
+		</div>
+
+<!-- Table 4 -->
+
+		<div class="col-md-8">
+			<table class="table table-bordered">
+
+<tr>
+
+<td rowspan="4" style="width: 20%;"><img src="hendrich.png" style="width: 180px"></td>
+
+<td style="text-align: center; font-family: Concert One; margin-top: 50px;" colspan="3">Profile Information</td>
+	</tr>
+
+			  <tr>
+			  	<td style=" color: black;">Name:</td>
+			  	<td style="color: black;">Hendrich Mathis D. Ong</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Interests/Clubs:</td>
+			  	<td style="color: black;">Badminton, Basketball, Piano, and Singing</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Ambition:</td>
+			  	<td style="color: black;">"All I want to do in life is change for the better, work hard, study hard, and strive to become a doctor."</td>
+			  </tr>
+			</table>
+		</div>
+
+<!-- Table 5 -->
+
+		<div class="col-md-8">
+			<table class="table table-bordered">
+
+<tr>
+
+<td rowspan="4" style="width: 20%;"><img src="david.png" style="width: 180px"></td>
+
+<td style="text-align: center; font-family: Concert One; margin-top: 50px;" colspan="3">Profile Information</td>
+	</tr>
+
+			  <tr>
+			  	<td style=" color: black;">Name:</td>
+			  	<td style="color: black;">David C. Valdez</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Interests/Clubs:</td>
+			  	<td style="color: black;">Volleyball, Music, Clothes</td>
+			  </tr>
+
+			  <tr>
+			  	<td style=" color: black;">Ambition:</td>
+			  	<td style="color: black;">"Throughout my life I want to be able to live, love, and laugh. I want to live my life to the fullest, experience all things and share love to those around me."</td>
+			  </tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+<br><br><br><br>
+
+<!-- Dropdown Boxes -->
+
+<center>
+	<h4><strong>Quarter Projects</strong></h4><br>
+
+    <!-- 1st Quarter -->
+
+	<details id="q1">
+		<summary>1st Quarter</summary>
+
+		<br><br>
+
+		<p><strong>Queeny Ramos</strong></p>
+		<img src="ramos1.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 1st quarter project is all about a brand named "Haraj" offering designer apparel, specifically dresses and gowns.</p>
+
+		<br>
+
+		<p><strong>Jazmar Chan</strong></p>
+		<img src="chan1.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 1st quarter project features a store full of dragon ball figurines made by Bandai Namco, their price, and a brief info of the anime and the author.</p>
+
+		<br>
+
+		<p><strong>Francesca Cruz</strong></p>
+		<img src="cruz1.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 1st quarter project is an online store selling clothing sets with BINI as an ambassador.</p>
+
+		<br>
+
+		<p><strong>Hendrich Ong</strong></p>
+		<img src="ong1.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My first quarter project features a store of sneakers usually made by Nike.</p>
+
+		<br>
+
+		<p><strong>David Valdez</strong></p>
+		<img src="valdez1.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 1st quarter project is an online store selling clothes from the brand Birshka.</p>
+
+		<br>
+
+	</details>
+
+	<br>
+
+	<!-- 2nd Quarter -->
+
+
+	<details id="q2">
+		<br><summary>2nd Quarter</summary>
+
+		<p><strong>Queeny Ramos</strong></p>
+		<img src="ramos2.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 2nd quarter project features a restaurant's website of Filipino cuisine named "Filipa Qara".</p>
+
+		<br>
+
+		<p><strong>Jazmar Chan</strong></p>
+		<img src="chan2.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 2nd quarter project features a website with Filipino cuisine such as Lechon and Champorado.</p>
+
+		<br>
+
+		<p><strong>Francesca Cruz</strong></p>
+		<img src="cruz2.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 2nd quarter project is a website where Filipino cooks can find new and improved recipes.</p>
+
+		<br>
+
+		<p><strong>Hendrich Ong</strong></p>
+		<img src="ong2.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 2nd quarter project features a website about Filipino cuisine that includes Sinigang, Adobo, and many more.</p>
+
+		<br>
+
+		<p><strong>David Valdez</strong></p>
+		<img src="valdez2.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 2nd quarter project is an online website to find and learn recipes of the Italian Cuisine.</p>
+
+		<br>
+
+	</details>
+
+	<br>
+
+	<!-- 3rd Quarter -->
+
+	<details id="q3">
+		<br><summary>3rd Quarter</summary>
+
+		<p><strong>Queeny Ramos</strong></p>
+		<img src="ramos3.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 3rd quarter project features an online train station site where you can book train tickets made by Sam Luna and I.</p>
+
+		<br>
+
+		<p><strong>Jazmar Chan</strong></p>
+		<img src="chan3.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 3rd quarter project features a Harry Potter inspired train station website made by me and Francis Liligan.</p>
+
+		<br>
+
+		<p><strong>Francesca Cruz</strong></p>
+		<img src="cruz3.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 3rd quarter project features a simple train station tracker from North Ave. made by Ebtisam Al Hazmi and I.</p>
+
+		<br>
+
+		<p><strong>Hendrich Ong</strong></p>
+		<img src="ong3.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 3rd quarter project is a train ticket booking website to every city in the Philippines.</p>
+
+		<br>
+
+		<p><strong>David Valdez</strong></p>
+		<img src="valdez3.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 3rd quarter project is an online website used to track and book tickets to train routes.</p>
+
+		<br>
+
+	</details>
+
+	<br>
+
+	<!-- 4th Quarter -->
+
+	<details id="q4">
+		<br><summary>4th Quarter</summary>
+
+		<p><strong>Queeny Ramos</strong></p>
+		<img src="ramos4.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 4th quarter quiz 2 features a chic score analyzer for the subjects English, Filipino, and Science.</p>
+
+		<br>
+
+		<p><strong>Jazmar Chan</strong></p>
+		<img src="chan4.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 4th quarter quiz 2 features a grade analyzer for Filipino, English, and Math.</p>
+
+		<br>
+
+		<p><strong>Francesca Cruz</strong></p>
+		<img src="cruz4.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 4th quarter quiz 2 is a score evaluation used to evaluate grades for the subjects Mathematics, Science, and Social Studies.</p>
+
+		<br>
+
+		<p><strong>Hendrich Ong</strong></p>
+		<img src="ong4.png" style="width:650px" "height:600px">
+	    <p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 4th quarter quiz 2 features a grade analyzer for English, Math, and Science.</p>
+
+		<br>
+
+		<p><strong>David Valdez</strong></p>
+		<img src="valdez4.png" style="width:650px" "height:600px">
+		<p style="margin-left: 7%; margin-right: 7%; transform: translateX(-0%);">My 4th quarter quiz 2 is an online website used to track the average of your subject grades.</p>
+
+		<br>
+
+	</details>
+
+	<br>
+		
+</center>
+
+<!-- Dropdown Script -->
+<script>
+	function openQuarter(id) {
+    document.querySelectorAll("details").forEach(d => d.removeAttribute("open"));
+    const section = document.getElementById(id);
+    if (section) {
+      section.setAttribute("open", true);
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+</script>
+
+<br><br><br><br>
+
+<!-- What's Next -->
+
+
+
+<center>
+	<h5><strong> ---- What's Next ---- </strong></h5>
+
+	<div id="next">
+
+	<br><br>
+
+	<p style="margin-left: 15%; margin-right: 15%; transform: translateX(-0%);">As incoming grade 10 students, we naturally expect most subjects to become more challenging, yet still very beneficial for our growth. Specifically, for the subject I.C.T., we are looking forward to learning even deeper and complex coding,  and for the subject to offer us even more advanced lessons that will help prepare us for future coding activities and assessments. We hope that next year's I.C.T. program will not only help us strengthen our current skills but also help us build and develop them even more and widen our knowledge when it comes to coding. We also look forward to being introduced to more programming concepts of technology which we can also apply in real-life. To this also includes more collaborative activities to offer more opportunities. All in all, we expect that grade 10's I.C.T. program will lead us towards having an even deeper understanding and greater knowledge in the digital world.</p>
+
+</center>
+
+</div>
+
+<br><br><br>
+
+<!-- Feedback Section -->
+
+<center>
+
+
+<div id="rate" class="container mt-5">
+
+<!-- Comment Area -->
+
+	<h2>Give us a feedback!</h2><br>
+      <form id="rate1">
+        <div class="mb-3">
+          <label class="form-label">Feedback:</label>
+          <textarea class="form-control" rows="4" placeholder="Type here..."></textarea>
+        </div>
+       
+        <div class="mb-3">
+          <label class="form-label">Name:</label>
+          <input type="text" class="form-control">
+        </div>
+       
+        <div class="mb-3">
+          <label class="form-label">Email:</label>
+          <input type="email" class="form-control">
+        </div><br>
+
+        <button class="btn btn-dark w-50" onclick="rate1(event)">Submit Feedback</button><br><br><br>
+
+        <!-- Rate Form -->
+
+        <h2>Rate us!</h2><br>
+
+          <label>Profile Information</label>
+				<br>
+				<select id="profile" class="form-rate">
+					<option value="20">⭐️</option>
+					<option value="40">⭐️⭐️</option>
+					<option value="60">⭐️⭐️⭐️</option>
+					<option value="80">⭐️⭐️⭐️⭐️</option>
+					<option value="100">⭐️⭐️⭐️⭐️⭐️</option>
+				</select>
+				<br><br>
+
+		  <label>Quarter Projects</label>
+				<br>
+				<select id="projects" class="form-rate">
+					<option value="20">⭐️</option>
+					<option value="40">⭐️⭐️</option>
+					<option value="60">⭐️⭐️⭐️</option>
+					<option value="80">⭐️⭐️⭐️⭐️</option>
+					<option value="100">⭐️⭐️⭐️⭐️⭐️</option>
+				</select>				
+				<br><br>
+
+		  <label>Feedback Section</label>
+				<br>
+				<select id="feedback" class="form-rate">
+					<option value="20">⭐️</option>
+					<option value="40">⭐️⭐️</option>
+					<option value="60">⭐️⭐️⭐️</option>
+					<option value="80">⭐️⭐️⭐️⭐️</option>
+					<option value="100">⭐️⭐️⭐️⭐️⭐️</option>
+				</select>
+				<br><br><br>
+
+		<button class="btn btn-dark w-50" onclick="rate2()">Calculate Rate</button><br><br>        
+      
+      </form>
+    </div>
+</center>
+
+<br>
+
+<!-- Rate Script -->
+
+<script>
+
+function rate1(){
+	event.preventDefault();
+	alert("Thank you for your feedback!");
+	document.getElementById("rate1").reset();
+}
+
+
+function rate2() {
+    var profile = Number(document.getElementById("profile").value);
+    var projects = Number(document.getElementById("projects").value);
+    var feedback = Number(document.getElementById("feedback").value);
+
+    let  average = (profile + projects + feedback) / 3;
+    average = Math.round(average);
+
+    let starRating = "";
+    
+    if (average >= 20 && average <40) {starRating = "⭐️";}
+    else if (average >= 40 && average <60) {starRating = "⭐️⭐️";}
+    else if (average >= 60 && average <80) {starRating = "⭐️⭐️⭐️";}
+    else if (average >= 80 && average <100) {starRating = "⭐️⭐️⭐️⭐️";}
+    else if (average >= 100 && average <110) {starRating = "⭐️⭐️⭐️⭐️⭐️";}
+    else{ starRating = "No Rating";}
+
+   alert("Your rating is " + average + "%" + " (" + starRating + ") | Thank you for your rating!");
+}
+</script>
+</body>
+
+<!-- Footer -->
+
+<div class="footer">
+
+
+  <p>O.B. Montessori Center Fairview Campus</p>
+  <p>© 2025 Queeny Ramos, Jazmar Chan, Francesca Cruz, Hendrich Ong, & David Valdez</p>
+  <a href ="https://docs.google.com/document/d/1etPC-R_0quH2NPG5dlIGh6954fDtrZdLpoErMoEvJJM/edit?usp=sharing">REFERENCES</a>
+
+  </div>
+
+</body>
+</html>
